@@ -1,13 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Chemystrey Test Site</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chemystrey</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #005fa3;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      margin: 2rem 0;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Chemystrey Test Site!</h1>
-  <p>This is a simple test of GitHub Pages.</p>
-  <a href="https://github.com" target="_blank">GitHub Link</a>
+  <header>
+    <h1>Welcome to Chemystrey</h1>
+    <p>Your home for beautiful IB Chemistry notes</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Topic 1</a>
+    <a href="#">PDFs</a>
+    <a href="#">About</a>
+  </nav>
+
+  <main>
+    <h2>Getting Started</h2>
+    <p>This is your test site for Chemystrey. Here you can add your notes, link to past papers or PDFs, and build out each topic one by one.</p>
+    <p>Want to add a downloadable file? Try <a href="sample.pdf" download>this example PDF</a>.</p>
+  </main>
+
+  <footer>
+    Made with 💙 by the Chemystrey Team
+  </footer>
 </body>
 </html>
